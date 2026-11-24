@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group -->
+<!-- Platform theme only: Compose draws the UI. windowBackground acts as the launch (splash) screen colour. -->
+<resources>
+    <style name="Theme.SignalTrail" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:colorPrimary">@color/primary</item>
+        <item name="android:colorPrimaryDark">@color/primary_dark</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+</resources>

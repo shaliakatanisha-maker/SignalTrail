@@ -1,0 +1,14 @@
+# Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group
+.gradle/
+build/
+app/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+.kotlin/
+server/*.pem
+server/*.key
+analysis/out/
+__pycache__/

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group -->
+<resources>
+    <string name="app_name">SignalTrail</string>
+    <string name="app_subtitle">Campus network measurement</string>
+    <string name="start_measurement">Start measurement</string>
+    <string name="phone_permission_rationale">SignalTrail reads the cellular network type (LTE, 3G, 5G) of the default data SIM. Android protects this behind the \"Phone\" permission. The app never reads your phone number, calls or SIM identifiers. If you deny it, the network type is recorded as NA and everything else still works.</string>
+</resources>

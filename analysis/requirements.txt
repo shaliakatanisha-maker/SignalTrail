@@ -1,0 +1,4 @@
+# Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group
+pandas>=1.5
+matplotlib>=3.6
+numpy>=1.23

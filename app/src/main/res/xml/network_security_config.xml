@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group -->
+<!--
+  Network Security Config (supported from Android 7.0 / API 24).
+
+  * "system": normal public CAs.
+  * "user":   lets you use a SELF-SIGNED server certificate. Install the server's cert.pem on the phone
+              (Settings > Security > Install from storage). Android 7+ ignores user CAs unless an app opts in here.
+  * @raw/... : extra PUBLIC root CAs bundled because Android 7.0 is too old to know them:
+              ISRG Root X1/X2 (Let's Encrypt) and GTS Root R1/R4 (Google Trust Services) are used by
+              Cloudflare Tunnel / ngrok certificates. Without these the Huawei GR5 (Android 7) fails with
+              "Trust anchor for certification path not found". Newer phones already trust them (harmless duplicate).
+  * cleartext is permitted only so a plain http://<laptop-ip>:8080 server can be used during the PILOT.
+    The real sessions must use the same https:// address (the UI warns when http:// is entered).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+            <certificates src="user" />
+            <certificates src="@raw/isrg_root_x1" />
+            <certificates src="@raw/isrg_root_x2" />
+            <certificates src="@raw/gts_root_r1" />
+            <certificates src="@raw/gts_root_r4" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

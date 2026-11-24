@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group -->
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="accent">#00897B</color>
+    <color name="background">#F5F7FA</color>
+    <color name="background_dark">#111820</color>
+    <color name="launcher_background">#1565C0</color>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with AI assistance (Claude Code, Claude Opus 5.5); reviewed by group -->
+<!-- Round legacy icon (API 24-25) - identical to ic_launcher, which is already circular. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M4,54 A50,50 0 1,1 104,54 A50,50 0 1,1 4,54 Z"
+        android:fillColor="#1565C0" />
+    <path
+        android:pathData="M27.62,47.62 A34,34 0 0,1 80.38,47.62"
+        android:strokeWidth="7"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M37.03,57.03 A22,22 0 0,1 70.97,57.03"
+        android:strokeWidth="7"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M46.22,66.22 A10,10 0 0,1 61.78,66.22"
+        android:strokeWidth="7"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M49,74 A5,5 0 1,1 59,74 A5,5 0 1,1 49,74 Z"
+        android:fillColor="#FFFFFF" />
+</vector>
